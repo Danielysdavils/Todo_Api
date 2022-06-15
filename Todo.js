@@ -1,8 +1,8 @@
 import express from 'express'
 const app = express();
 
-import {usuario} from './sem01/Aula004/express/src/controller/usuario_controller.js'
-import {tarefa} from './usuario_controller.js'
+import {usuario} from './src/controller/usuario_controller.js'
+import {tarefa} from './src/controller/tarefa_controller.js'
 
 usuario(app); 
 tarefa(app);
